@@ -1,0 +1,305 @@
+/**
+  * @name Old UI
+  * @author IGOBOOM123
+  * @version 1.0
+  * @description Switch to the Old UI.
+  * @authorId 609548474110836738
+*/
+
+/* [Hide Section] */
+/* Hide the Server name */
+.title_c38106 {
+  display: none;
+}
+.sidebarResizeHandle_c48ade { /* Hide Panel Resizer */
+  display: none;
+  pointer-events: none;
+}
+.scrollerInner__36d07 { /* Fix Background */
+  background-color: transparent;
+}
+.content_c48ade { /* Fix Background */
+  background-color: transparent
+}
+.sidebar_c48ade { /* Fix Background */
+  background-color: transparent
+}
+.defaultColor__4bd52.membersGroup_c8ffbb.container__13cf1:has(.headerContainer__095fe) { /* Hide Member List Activity */
+  display: none !important;
+}
+.inner__74017.sansAttachButton__74017 { /* Fix Interior Message Input Box */
+  background-color: transparent
+}
+.textArea__74017.textAreaSlate__74017.slateContainer_ec4baf { /* Fix Interior Message Input Box */
+  background-color: transparent
+}
+
+
+
+
+
+/* [Resize Section] */
+.page_c48ade {
+  max-height: 100% !important;
+  height: 100% !important;
+}
+.bar_c38106 { /* Shrink the TopBar & Recolor */
+  min-height: 25px;
+  max-height: 25px;
+  height: 25px;
+  position: relative;
+
+  color: #1E1F22;
+}
+.content_c48ade {
+  position: relative;
+  top: -7.5px; /* Moves it up */
+
+  transform: scaleY(1.0189633375474083);
+}
+.trailing_c38106 { /* Resize TopBar Button Holder */
+  min-width: 50px;
+  max-width: 150px;
+  min-height: 25px;
+  max-height: 25px;
+  width: 150px;
+  height: 25px;
+  display: flex;
+  justify-content: flex-end;
+}
+.winButtons_c38106.winButtonsWithDivider_c38106 { /* Resize winButtons */
+  min-width: 100px;
+  max-width: 100px;
+  min-height: 25px;
+  max-height: 25px;
+  width: 100px;
+  height: 25px;
+  position: absolute;
+  right: 2px;
+}
+.winButton_c38106.winButtonMinMax_c38106{ /* Fix Minimize Button */
+  min-width: 25px;
+  max-width: 25px;
+  min-height: 25px;
+  max-height: 25px;
+  height: 25px;
+}
+.winButton_c38106.winButtonMinMax_c38106{ /* Fix Maximize Button */
+  min-width: 25px;
+  max-width: 25px;
+  min-height: 25px;
+  max-height: 25px;
+  height: 25px;
+}
+.winButton_c38106.winButtonClose_c38106.winButton_c38106{ /* Fix Close Button */
+  min-width: 25px;
+  max-width: 25px;
+  min-height: 25px;
+  max-height: 25px;
+  height: 25px;
+}
+.wrapper_ef3116.guilds_c48ade { /* Resize & Recolor Guild Panel */
+  min-width: 50px;
+  max-width: 75px;
+  min-height: auto;
+  max-height: calc(100% + 50px);
+
+  width: 75px;
+  height: calc(100% + 50px);
+
+  background-color: transparent;
+}
+.sidebarList_c48ade.sidebarListRounded_c48ade { /* Resize Channel List */
+  min-width: 150px;
+  max-width: 250px;
+
+  width: 250px;
+}
+.expandedFolderIconWrapper__48112 svg { /* Resize Folder Icons 1/2 */
+  width: 25px;
+  height: 25px;
+}
+.expandedFolderIconWrapper__48112 svg path { /* Resize Folder Icons 2/2 */
+  width: 100%;
+  height: 100%;
+}
+.contents__201d5.attachButtonInner__0923f {/* Resize Attachment Icon 1/2 */
+  min-width: 30px;
+  max-width: 30px;
+  min-height: 30px;
+  max-height: 30px;
+  width: 30px;
+  height: 30px;
+}
+.contents__201d5.attachButtonInner__0923f svg { /* Resize Attachment Icon 2/2 */
+  min-width: 30px;
+  max-width: 30px;
+  min-height: 30px;
+  max-height: 30px;
+  width: 30px;
+  height: 30px;
+}
+.channelBottomBarArea_f75fb0 {/* Shorten Message Input Area */
+  max-width: 95% !important;
+  max-height: 75% !important;
+  width: 95% !important;
+  height: 75% !important;
+
+  transform: translateX(2.5%);
+}
+::-webkit-scrollbar-thumb {/* Resize & Color Scroll Track */
+  width: 5% !important;
+  background: #1A1B1E !important;
+  border-radius: 10px !important;
+}
+::-webkit-scrollbar-track {/* Resize & Color Scroll */
+  width: 10% !important;
+  background: #2B2D31 !important;
+  border-radius: 10px !important;
+}
+.panels_c48ade { /* Resize & Move Bottom User Panel */
+  min-width: 250px;
+  max-width: 250px;
+  width: 250px;
+
+  transform: translateX(26%) translateY(15px) !important;
+  border-radius: 0 !important;
+
+  background-color: #232428 !important;
+}
+.sidebar_c48ade::after {
+  content: none !important;
+  display: none !important;
+}
+
+
+
+/*.stack_dbd263 { /* Resize Server Icons */
+  /* height: 200px;
+  padding: 0px;
+} */
+
+
+
+
+
+/* [Move Section] */
+.recentsIcon_c99c29 { /* Move Inbox */
+  position: absolute;
+  left: 0px;
+}
+.trailing_c38106 .anchor_edefb8.anchorUnderlineOnHover_edefb8 { /* Move Support Button */
+  position: absolute;
+  left: 32px;
+}
+.buttons__74017 { /* Move Buttons */
+  transform: translateX(0px);
+}
+
+
+
+
+
+/* [Insert Section] */
+.bar_c38106::after { /* Insert old discord logo into TopBar */
+  content: "Discord";
+  display: inline-block;
+
+  font-size: small;
+  font-family: 'Gg Sans', sans-serif;
+  font-weight: bolder;
+  color: #949BA4;
+  text-align: center;
+
+  background-color: transparent;
+  position: absolute;
+  top: 5px;
+  left: 14px;
+  height: 20px;
+  width: 50px;
+
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 20px;
+  max-height: 20px;
+}
+
+
+
+
+
+/* [Misc] */
+.container_c48ade { /* Fix background color */
+  background-color: transparent !important;
+}
+.icon__6e9f8 { /* Make server icons round */
+  border-radius: 50% !important;
+}
+.scroller__629e4.thin__99f8c.scrollerBase__99f8c.fade__99f8c.customTheme__99f8c { /* Fix Channel List Color */
+  background-color: #2B2D31 !important;
+}
+.title_f75fb0.container__9293f.themed__9293f { /* Fix Channel Header Color */
+  background-color: #313338 !important;
+}
+.scroller__36d07.customTheme_d125d2.auto_d125d2.scrollerBase_d125d2.disableScrollAnchor_d125d2.managedReactiveScroller_d125d2 { /* Fix Chat Color */
+  background-color: #313338 !important;
+}
+.form_f75fb0.formWithLoadedChatInput_f75fb0 { /* Fix Bottom Chat Color */
+  background-color: #313338 !important;
+}
+.scrollableContainer__74017.themedBackground__74017 { /* Color Message Input Area */
+  background-color: #383A40 !important;
+}
+.channelTextArea_f75fb0.channelTextArea__74017 { /* Color Message Input Area */
+  background-color: #383A40 !important;
+}
+.container_f37cb1.clickable_f37cb1 {
+  background-color: #2B2D31 !important;
+}
+.headerChildren_f37cb1 svg path {
+  fill: #F2F3F5 !important; /* Change the fill color */
+  stroke: transparent !important; /* Change the stroke (outline) color */
+}
+.childWrapper__6e9f8.childWrapperNoHoverBg__6e9f8 svg {
+  max-width: 25px !important;
+  max-height: 25px !important;
+  width: 25px !important;
+  height: 25px !important;
+}
+.members_c8ffbb.thin__99f8c.scrollerBase__99f8c.fade__99f8c.customTheme__99f8c {
+  background-color: #2B2D31 !important;
+}
+.member__5d473.member_c8ffbb.container__91a9d.clickable__91a9d {
+  background-color: #2B2D31 !important;
+}
+
+.defaultColor__4bd52.text-sm\/medium_cf4812.membersGroup_c8ffbb.container__13cf1 {
+  color: #8A9BA4;
+  font-family: 'Gg Sans', sans-serif;
+  font-weight: 550;
+}
+
+
+
+
+
+
+/* .tutorialContainer__1f388 {
+  aspect-ratio: 1 / 0.8;
+  transform: translateX(5%);
+  background-color: transparent !important;
+}
+
+.tutorialContainer__1f388 * {
+  aspect-ratio: 1 / 1;
+}
+
+.childWrapper__6e9f8.childWrapperNoHoverBg__6e9f8 {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+
+  background-color: #ffffff !important;
+  border-radius: 50%;
+} */
