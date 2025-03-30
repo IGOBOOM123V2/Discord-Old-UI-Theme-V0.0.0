@@ -1,4 +1,4 @@
-# Discord-Old-UI-Theme-V0.0.0
+# Discord-Old-UI-Theme-V0.0.0 [Desktop App Only]
 A theme to turn Discord's new UI into the old UI. This Theme is still a Work In Progress. *A lot is still missing, and will be added over time*
 
 
